@@ -30,5 +30,14 @@
     <ClCompile Include="문제02-2[const 포인터와 const 참조자].cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="문제02-4[C++의 표준함수 호출].cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="문제03-2[클래스의 정의].cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="문제04-2[다양한 클래스의 정의].cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
