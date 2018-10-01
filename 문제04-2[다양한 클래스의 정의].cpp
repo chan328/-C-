@@ -4,7 +4,7 @@ using namespace std;
 // ¹®Á¦ 1¹ø
 
 class Point
-{
+{ 
 private:
 	int xpos, ypos;
 public:
