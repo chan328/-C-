@@ -39,5 +39,11 @@
     <ClCompile Include="문제04-2[다양한 클래스의 정의].cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="문제04-3[C++ 기반의 데이터 입출력].cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="04-5은행시스템2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
