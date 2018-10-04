@@ -93,7 +93,6 @@ int main(void)
 			return 0;
 		default:
 			cout << "Illegal selection.. " << endl;
-			break;
 		}
 	}
 
@@ -122,7 +121,7 @@ void MakeAccount(void)
 	cout << "ют╠щ╬в: "; cin >> balance;
 	cout << endl;
 
-	accArr[accNum++] = new Account(id, name, balance);
+	accArr[accNum++] = new Account(id, balance, name);
 }
 
 void DepositMoney(void)
