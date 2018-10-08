@@ -1,2 +1,11 @@
-﻿  문제07-2[iS-A 관계의 상속].cpp
-d:\코드\열혈c++\열혈c++\문제07-2[is-a 관계의 상속].cpp(23): error C2661: 'Square::Square': 오버로드된 함수에서 2개의 매개 변수를 사용하지 않습니다.
+﻿  07-5은행시스템3.cpp
+d:\코드\열혈c++\열혈c++\07-5은행시스템3.cpp(30): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 'strcpy' 선언을 참조하십시오.
+d:\코드\열혈c++\열혈c++\07-5은행시스템3.cpp(37): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 'strcpy' 선언을 참조하십시오.
+d:\코드\열혈c++\열혈c++\07-5은행시스템3.cpp(105): error C2664: 'Account::Account(const Account &)': 인수 2을(를) 'char [20]'에서 'int'(으)로 변환할 수 없습니다.
+  d:\코드\열혈c++\열혈c++\07-5은행시스템3.cpp(105): note: 이 변환이 가능한 컨텍스트가 없습니다.
+  소스.cpp
+d:\코드\열혈c++\열혈c++\소스.cpp(38): error C2664: 'Second::Second(const Second &)': 인수 1을(를) 'const char [7]'에서 'char *'(으)로 변환할 수 없습니다.
+  d:\코드\열혈c++\열혈c++\소스.cpp(38): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+  코드를 생성하고 있습니다...

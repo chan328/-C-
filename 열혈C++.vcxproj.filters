@@ -48,5 +48,14 @@
     <ClCompile Include="문제07-2[iS-A 관계의 상속].cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="문제07-1[상속과 생성자의 호출].cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="07-5은행시스템3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
