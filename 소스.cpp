@@ -1,42 +1,30 @@
 #include <iostream>
 using namespace std;
 
-class First
+class father
 {
-private:
-	char * strOne;
 public:
-	First(char * str)
+	void Say()
 	{
-		strOne = new char[strlen(str) + 1];
-	} 
-	virtual ~First()
-	{
-		cout << "~First()" << endl;
-		delete[] strOne;
+		cout << "father" << endl;
 	}
 };
 
-class Second : public First
+class Son : public father
 {
-private:
-	char * strTwo;
-public:
-	Second(char * str1, char * str2) : First(str1)
+	void Say()
 	{
-		strTwo = new char[strlen(str2) + 1];
-	}
-	virtual ~Second()
-	{
-		cout << "~Second()" << endl;
-		delete[] strTwo;
+		cout << "Son" << endl;
 	}
 };
 
 int main(void)
 {
-	First * ptr = new Second("simple", "complex");
-	delete ptr;
-
+	father * f, Ff;
+	Son s;
+	f = &Ff;
+	f->Say();
+	f = &s;
+	f->Say();
 	return 0;
 }
