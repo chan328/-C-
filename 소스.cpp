@@ -1,30 +1,34 @@
 #include <iostream>
 using namespace std;
 
-class father
+class Point
 {
+private:
+	int xpos, ypos;
 public:
-	void Say()
+	Point(int x = 0, int y = 0) 
+		: xpos(x), ypos(y)
+	{}
+	void ShowPosition() const
 	{
-		cout << "father" << endl;
+		cout << '[' << xpos << ", " << ypos << ']' << endl;
 	}
-};
-
-class Son : public father
-{
-	void Say()
+	Point operator+(const Point &ref)
 	{
-		cout << "Son" << endl;
+		Point pos(xpos + ref.xpos, ypos + ref.ypos);
+		return pos;
 	}
 };
 
 int main(void)
 {
-	father * f, Ff;
-	Son s;
-	f = &Ff;
-	f->Say();
-	f = &s;
-	f->Say();
+	Point pos1(3, 4);
+	Point pos2(10, 20);
+	Point pos3 = pos1.operator+(pos2);
+
+	pos1.ShowPosition();
+	pos2.ShowPosition();
+	pos3.ShowPosition();
+
 	return 0;
 }
