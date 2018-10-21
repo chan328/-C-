@@ -13,15 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\소스코드">
+      <UniqueIdentifier>{16a1525c-0db8-4973-9b22-5ee2a54c13b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="const함수.cpp">
+      <Filter>소스 파일\소스코드</Filter>
+    </ClCompile>
+    <ClCompile Include="01-6은행시스템.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="04-5은행시스템2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="07-5은행시스템3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="문제01-2[함수오버로딩].cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="문제01-3[매개변수의 디폴트 값].cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="01-6은행시스템.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="문제02-1[참조자 기반의 Call-by-reference 구현].cpp">
@@ -42,19 +54,13 @@
     <ClCompile Include="문제04-3[C++ 기반의 데이터 입출력].cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="04-5은행시스템2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="문제07-2[iS-A 관계의 상속].cpp">
+    <ClCompile Include="문제05-1[복사생성자의 정의].cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="문제07-1[상속과 생성자의 호출].cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="07-5은행시스템3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="소스.cpp">
+    <ClCompile Include="문제07-2[iS-A 관계의 상속].cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="문제10-1[두 가지 방법의 연산자 오버로딩].cpp">
@@ -66,8 +72,8 @@
     <ClCompile Include="문제10-3[입력을 위한 연산자의 오버로딩].cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="문제05-1[복사생성자의 정의].cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="복사생성자.cpp">
+      <Filter>소스 파일\소스코드</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
