@@ -60,5 +60,14 @@
     <ClCompile Include="문제10-1[두 가지 방법의 연산자 오버로딩].cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="문제10-2[단항 연산자 오버로딩].cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="문제10-3[입력을 위한 연산자의 오버로딩].cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="문제05-1[복사생성자의 정의].cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

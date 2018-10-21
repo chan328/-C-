@@ -7,11 +7,17 @@ void plusNum(int &num)
 {
 	num++;
 }
+
+void minusNum(int &num)
+{
+	num * -1;
+}
 /*
 void main()
 {
 	int a = 2;
 	plusNum(a);
+	minusNum(a);
 	cout << a;
 }
 */

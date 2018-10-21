@@ -3,7 +3,6 @@ using namespace std;
 
 // 문제 1번
 
-/*
 class Point
 {
 private:
@@ -57,84 +56,4 @@ int main(void)
 	p3.ShowPosition();
 
 	return 0;
-}
-*/
-
-// 문제 2번
-
-/*
-class Point
-{
-private:
-	int xpos, ypos;
-public:
-	Point(int x = 0, int y = 0) 
-		: xpos(x), ypos(y)
-	{}
-	void ShowPosition() const
-	{
-		cout << xpos << ypos << endl;
-	}
-	Point operator- ()
-	{
-		Point pos(-xpos, -ypos);
-		return pos;
-	}
-	friend Point operator~ (const Point &);
-};
-
-Point operator~ (const Point &ref)
-{
-	Point pos(ref.ypos, ref.xpos);
-	return pos;
-}
-
-int main(void)
-{
-	Point pos1(9, -7);
-	pos1.ShowPosition();
-	Point pos2 =- pos1;
-	pos2.ShowPosition();
-	(~pos2).ShowPosition();
-	pos2.ShowPosition();
-
-	return 0;
-}
-*/
-
-// 문제 3번
-
-class Point
-{
-private:
-	int xpos, ypos;
-public:
-	Point(int x = 0, int y = 0) : xpos(x), ypos(y)
-	{}
-	void ShowPosition() const
-	{
-		cout << xpos << ", " << ypos << endl;
-	}
-	friend ostream& operator<< (ostream&, const Point&);
-	friend istream& operator>> (istream&, Point& pos);
-};
-
-ostream& operator<< (ostream& os, const Point& pos)
-{
-	os << pos.xpos << ", " << pos.ypos << endl;
-	return os;
-}
-
-istream& operator>> (istream& is, Point& pos)
-{
-	is >> pos.xpos >> pos.ypos;
-	return is;
-}
-
-int main(void)
-{
-	Point pos1;
-	cout << "x, y 좌표 순으로 입력" << endl;
-	cin >> pos1;
-	cout << pos1;
-}
+} 
