@@ -97,7 +97,7 @@ public:
 	}
 };
 
-void main()
+int main()
 {
 	MyFriendDetailInfo fren1("김진성", 22, "충남 아산", "010-1234-00xx");
 	MyFriendDetailInfo fren2("이주성", 19, "경기 인천", "010-3333-00xx");
