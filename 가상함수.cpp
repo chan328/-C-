@@ -18,7 +18,7 @@ class Third : public Second
 public:
 	virtual void MyFunc() { cout << "ThirdFunc" << endl; }
 };
-
+	
 int main(void)
 {
 	Third * third = new Third;
