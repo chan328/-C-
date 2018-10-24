@@ -102,5 +102,14 @@
     <ClCompile Include="객체 포인터의 참조관계.cpp">
       <Filter>소스 파일\소스코드</Filter>
     </ClCompile>
+    <ClCompile Include="오버라이딩.cpp">
+      <Filter>소스 파일\소스코드</Filter>
+    </ClCompile>
+    <ClCompile Include="포인터 연산의 특성.cpp">
+      <Filter>소스 파일\소스코드</Filter>
+    </ClCompile>
+    <ClCompile Include="가상함수.cpp">
+      <Filter>소스 파일\소스코드</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
