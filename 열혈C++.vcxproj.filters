@@ -72,9 +72,6 @@
     <ClCompile Include="explict.cpp">
       <Filter>소스 파일\소스코드</Filter>
     </ClCompile>
-    <ClCompile Include="상속생성자.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="멤버 이니셜라이저.cpp">
       <Filter>소스 파일\소스코드</Filter>
     </ClCompile>
@@ -139,6 +136,39 @@
       <Filter>소스 파일\소스코드</Filter>
     </ClCompile>
     <ClCompile Include="연산자 오버로딩.cpp">
+      <Filter>소스 파일\소스코드</Filter>
+    </ClCompile>
+    <ClCompile Include="단항연산자.cpp">
+      <Filter>소스 파일\소스코드</Filter>
+    </ClCompile>
+    <ClCompile Include="전역 함수에 의한 오버로딩.cpp">
+      <Filter>소스 파일\소스코드</Filter>
+    </ClCompile>
+    <ClCompile Include="상속생성자.cpp">
+      <Filter>소스 파일\소스코드</Filter>
+    </ClCompile>
+    <ClCompile Include="입출력 함수.cpp">
+      <Filter>소스 파일\소스코드</Filter>
+    </ClCompile>
+    <ClCompile Include="배열 클래스.cpp">
+      <Filter>소스 파일\소스코드</Filter>
+    </ClCompile>
+    <ClCompile Include="스트링 클래스.cpp">
+      <Filter>소스 파일\소스코드</Filter>
+    </ClCompile>
+    <ClCompile Include="템플릿.cpp">
+      <Filter>소스 파일\소스코드</Filter>
+    </ClCompile>
+    <ClCompile Include="문제13-1[함수 템플릿의 정의].cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="함수 템플릿의 특수화.cpp">
+      <Filter>소스 파일\소스코드</Filter>
+    </ClCompile>
+    <ClCompile Include="클래스 템플릿.cpp">
+      <Filter>소스 파일\소스코드</Filter>
+    </ClCompile>
+    <ClCompile Include="문제13-2[클래스 템플릿의 정의].cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

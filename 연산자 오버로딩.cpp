@@ -9,7 +9,7 @@ public:
 	Point(int _x = 0, int _y = 0) : x(_x), y(_y)
 	{}
 	void ShowPosition();
-	void operator+ (int val);
+	Point operator+ (const Point & val);
 };
 
 void Point::ShowPosition()
@@ -17,19 +17,19 @@ void Point::ShowPosition()
 	cout << x << " " << y << endl;
 }
 
-void Point::operator+(int val)
+Point Point::operator+(const Point & val)
 {
-	x += val;
-	y += val;
+	Point pos(x + val.x, y + val.y);
+	return pos;
 }
 
 int main()
 {
 	Point p(3, 4);
-	p.ShowPosition();
+	Point p2(1, 2);
+	Point p3 = p.operator+(p2);	
 
-	p.operator+(10);
-	p.ShowPosition();
+	p3.ShowPosition();
 
 	return 0;
 }
